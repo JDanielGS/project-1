@@ -24,7 +24,12 @@ INSTALLED_APPS = [
     'core',
     'blog',
 
+    'tailwind',
+    'theme',
+
 ]
+
+TAILWIND_APP_NAME="theme"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -101,3 +106,8 @@ STATIC_URL = '/static/'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+INTERNAL_IPS=[
+    "127.0.0.1",
+]
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"

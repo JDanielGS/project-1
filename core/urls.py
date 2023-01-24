@@ -6,7 +6,7 @@ from .views import homeview
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('', homeview.as_view(), name="Home"),
+    path('', homeview.as_view(), name="home"),
 
     path('blog/', include('blog.urls', namespace='blog'))
 ]
