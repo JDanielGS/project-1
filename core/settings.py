@@ -110,4 +110,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INTERNAL_IPS=[
     "127.0.0.1",
 ]
-NPM_BIN_PATH = r"C:\Program Files (x86)\nodejs\npm.cmd"
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
